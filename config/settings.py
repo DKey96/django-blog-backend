@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     'allauth',  # Package for having login/logout and register 
     'allauth.account',
     'allauth.socialaccount',
+    'drf_yasg',
 
     # Local
     'posts.apps.PostsConfig'
